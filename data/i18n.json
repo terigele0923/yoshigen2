@@ -1,0 +1,1052 @@
+{
+  "ja": {
+    "common": {
+      "companyName": "株式会社 吉源商事",
+      "tagline": "資源循環と国際流通をつなぐ金属リサイクルパートナー",
+      "nav": {
+        "home": "トップ",
+        "company": "企業情報",
+        "products": "取扱商品",
+        "facilities": "設備・実例",
+        "gallery": "ギャラリー",
+        "contact": "お問い合わせ"
+      },
+      "language": "表示言語",
+      "footerLead": "資源循環に関する事業情報、取扱品目、設備、連絡先を分かりやすく掲載しています。",
+      "footerNote": "本サイトは正式公開前の構成案です。文章・写真・会社情報は順次差し替え予定です。",
+      "copyright": "© 2026 Yoshigen Shoji Co., Ltd. All Rights Reserved.",
+      "viewMore": "詳しく見る",
+      "relatedTitle": "関連ページ",
+      "ctaTitle": "事業内容・取扱品目について",
+      "ctaText": "掲載情報をご確認のうえ、必要に応じて公開連絡先よりお問い合わせください。",
+      "ctaButton": "お問い合わせ情報へ",
+      "photoCredits": "写真の出典"
+    },
+    "home": {
+      "metaTitle": "株式会社 吉源商事｜金属リサイクル・資源循環",
+      "heroKicker": "MATERIALS × TECHNOLOGY",
+      "heroTitle": "資源の可能性を、次の産業へ。",
+      "heroLead": "鉄・非鉄金属からモーター、工業機械まで。金属資源をつなぎ、ものづくりの次の一歩を支えます。",
+      "heroPrimary": "取扱商品を見る",
+      "heroSecondary": "会社情報を見る",
+      "aboutTitle": "素材を知り、価値をつなぐ。",
+      "aboutText": "金属の種類や状態を見極め、買取・選別・保管・出荷へ。吉源商事は、産業の現場から生まれる資源を次の活用へつなぎます。",
+      "servicesTitle": "主なサービス",
+      "flowTitle": "取引の流れ",
+      "productsTitle": "取扱商品のラインアップ",
+      "services": [
+        {
+          "title": "事業内容の紹介",
+          "text": "金属資源に関する主な業務を、分かりやすく整理して掲載します。",
+          "link": "facilities.html"
+        },
+        {
+          "title": "取扱品目の案内",
+          "text": "鉄・非鉄金属など、取り扱う品目を一覧で確認できるようにします。",
+          "link": "products.html"
+        },
+        {
+          "title": "会社情報の公開",
+          "text": "会社概要、所在地、連絡先など、外部向けの基本情報を掲載します。",
+          "link": "company.html"
+        }
+      ],
+      "flow": [
+        {
+          "step": "01",
+          "title": "情報確認",
+          "text": "会社情報や事業内容を確認します。"
+        },
+        {
+          "step": "02",
+          "title": "品目確認",
+          "text": "取扱品目や関連情報を確認します。"
+        },
+        {
+          "step": "03",
+          "title": "設備確認",
+          "text": "設備・実例・写真などを確認します。"
+        },
+        {
+          "step": "04",
+          "title": "連絡確認",
+          "text": "必要に応じて公開連絡先を確認します。"
+        }
+      ]
+    },
+    "company": {
+      "metaTitle": "企業情報｜株式会社 吉源商事",
+      "pageKicker": "COMPANY",
+      "pageTitle": "企業情報",
+      "pageLead": "会社の基本情報、代表メッセージ、事業姿勢を掲載するページです。",
+      "messageTitle": "社長メッセージ",
+      "messageText": "平素より格別のご高配を賜り、誠にありがとうございます。当社は、資源を大切に扱い、関係者の皆さまに安心してご確認いただける情報発信を心がけております。今後も誠実な姿勢を大切にし、地域社会と取引先の皆さまに信頼される企業を目指してまいります。",
+      "outlineTitle": "会社概要",
+      "philosophyTitle": "大切にしている姿勢",
+      "outline": [
+        {
+          "label": "会社名",
+          "value": "株式会社 吉源商事"
+        },
+        {
+          "label": "事業内容",
+          "value": "金属資源に関する買取、選別、保管、出荷など"
+        },
+        {
+          "label": "取扱品目",
+          "value": "鉄、非鉄金属、線材、機械類など"
+        },
+        {
+          "label": "所在地",
+          "value": "千葉県佐倉市坂戸1371-1"
+        },
+        {
+          "label": "代表者",
+          "value": "代表者名を掲載予定"
+        }
+      ],
+      "philosophy": [
+        {
+          "title": "分かりやすい情報",
+          "text": "外部の方が確認しやすいよう、情報を整理して掲載します。"
+        },
+        {
+          "title": "誠実な対応",
+          "text": "関係者の皆さまに安心していただける姿勢を大切にします。"
+        },
+        {
+          "title": "継続的な改善",
+          "text": "写真、文章、情報を必要に応じて更新していきます。"
+        }
+      ],
+      "messageSignature": "代表取締役　氏名掲載予定"
+    },
+    "products": {
+      "metaTitle": "取扱商品｜株式会社 吉源商事",
+      "pageKicker": "PRODUCTS",
+      "pageTitle": "素材と機械から探す、取扱商品",
+      "pageLead": "9つの取扱品目を、特徴と主な対象例からご覧いただけます。お取引の可否・条件は、品目や状態に応じてお問い合わせください。",
+      "items": [
+        {
+          "title": "鉄スクラップ",
+          "category": "Ferrous",
+          "text": "建築、工場、解体現場などから発生する鉄系スクラップを取り扱います。",
+          "id": "steel",
+          "group": "ferrous",
+          "examples": "鉄材・鋼材 / 工場発生スクラップ"
+        },
+        {
+          "title": "銅",
+          "category": "Copper",
+          "text": "銅線、銅材、銅屑など、再資源化価値の高い非鉄金属を扱います。",
+          "id": "copper",
+          "group": "nonferrous",
+          "examples": "銅線 / 銅材 / 銅屑"
+        },
+        {
+          "title": "アルミ",
+          "category": "Aluminum",
+          "text": "アルミサッシ、アルミ材、機械部品などを状態に応じて確認します。",
+          "id": "aluminum",
+          "group": "nonferrous",
+          "examples": "アルミサッシ / アルミ材 / 機械部品"
+        },
+        {
+          "title": "ステンレス",
+          "category": "Stainless",
+          "text": "耐食性を持つステンレス材を種類ごとに整理し、出荷します。",
+          "id": "stainless",
+          "group": "nonferrous",
+          "examples": "ステンレス材 / 配管・部材"
+        },
+        {
+          "title": "真鍮",
+          "category": "Brass",
+          "text": "真鍮部品、バルブ、金具類などを取り扱います。",
+          "id": "brass",
+          "group": "nonferrous",
+          "examples": "バルブ / 金具 / 真鍮部品"
+        },
+        {
+          "title": "雑線",
+          "category": "Wire",
+          "text": "各種電線、ケーブル類を素材・状態に合わせて確認します。",
+          "id": "wire",
+          "group": "nonferrous",
+          "examples": "被覆電線 / 各種ケーブル"
+        },
+        {
+          "title": "モーター",
+          "category": "Motor",
+          "text": "工場設備や機械から発生するモーター類を取り扱います。",
+          "id": "motor",
+          "group": "machinery",
+          "examples": "産業用モーター / 設備由来のモーター"
+        },
+        {
+          "title": "工業機械",
+          "category": "Machinery",
+          "text": "使用済み機械、設備部材などを個別条件に応じて相談できます。",
+          "id": "machinery",
+          "group": "machinery",
+          "examples": "使用済み機械 / 設備部材"
+        },
+        {
+          "title": "解体金属",
+          "category": "Demolition",
+          "text": "解体現場から発生する金属資源の確認、整理、出荷に対応します。",
+          "id": "demolition-metal",
+          "group": "ferrous",
+          "examples": "解体現場の鉄材 / 混合金属"
+        }
+      ],
+      "filters": [
+        {
+          "id": "all",
+          "label": "すべて"
+        },
+        {
+          "id": "ferrous",
+          "label": "鉄系金属"
+        },
+        {
+          "id": "nonferrous",
+          "label": "非鉄金属"
+        },
+        {
+          "id": "machinery",
+          "label": "機械・部品"
+        }
+      ],
+      "examplesLabel": "主な対象例",
+      "enquiryLabel": "この品目を相談する",
+      "illustrationLabel": "品目参考写真",
+      "photoNote": "写真は取扱品目・機械の参考写真です。"
+    },
+    "facilities": {
+      "metaTitle": "設備・実例｜株式会社 吉源商事",
+      "pageKicker": "FACILITIES",
+      "pageTitle": "設備・実例",
+      "pageLead": "設備、作業環境、実例写真などを紹介するためのページです。",
+      "cases": [
+        {
+          "title": "設備・ヤード",
+          "text": "保管場所や作業環境の概要を、写真と合わせて掲載します。",
+          "stat": "YARD",
+          "detailLead": "設備・ヤードに関する仮の詳細説明です。正式公開時には、敷地、保管場所、作業導線、設備写真などを掲載します。",
+          "detailItems": [
+            "保管場所の概要",
+            "作業環境の紹介",
+            "安全管理に関する説明"
+          ],
+          "id": "yard"
+        },
+        {
+          "title": "選別・管理",
+          "text": "品目ごとの整理や管理に関する情報を掲載します。",
+          "stat": "SORT",
+          "detailLead": "選別・管理に関する仮の詳細説明です。正式公開時には、品目ごとの整理方法や管理体制の写真を掲載します。",
+          "detailItems": [
+            "品目別の整理",
+            "保管状態の確認",
+            "管理体制の紹介"
+          ],
+          "id": "sorting"
+        },
+        {
+          "title": "出荷・連携",
+          "text": "出荷や関連作業の流れを、分かりやすく紹介します。",
+          "stat": "SHIP",
+          "detailLead": "出荷・連携に関する仮の詳細説明です。正式公開時には、出荷準備、輸送、関係先との連携内容を掲載します。",
+          "detailItems": [
+            "出荷準備の流れ",
+            "輸送に関する概要",
+            "関係先との連携"
+          ],
+          "id": "shipment"
+        }
+      ],
+      "detailTitle": "詳細情報"
+    },
+    "gallery": {
+      "metaTitle": "ギャラリー｜株式会社 吉源商事",
+      "pageKicker": "GALLERY",
+      "pageTitle": "写真ギャラリー",
+      "pageLead": "会社、設備、ヤード、取扱品目などの写真を掲載するページです。",
+      "sections": [
+        {
+          "title": "会社外観",
+          "text": "企業の雰囲気が伝わる写真を掲載予定です。",
+          "id": "company"
+        },
+        {
+          "title": "ヤード",
+          "text": "保管、選別、作業導線の様子を掲載予定です。",
+          "id": "yard"
+        },
+        {
+          "title": "港・出荷",
+          "text": "出荷や輸送に関する写真を掲載予定です。",
+          "id": "port"
+        },
+        {
+          "title": "取扱品目",
+          "text": "主要な金属スクラップの写真を掲載予定です。",
+          "id": "products"
+        }
+      ]
+    },
+    "contact": {
+      "metaTitle": "お問い合わせ｜株式会社 吉源商事",
+      "pageKicker": "CONTACT",
+      "pageTitle": "お問い合わせ情報",
+      "pageLead": "公開連絡先、所在地、銀行口座情報などを確認できるページです。",
+      "contactTitle": "公開連絡先",
+      "bankTitle": "銀行口座情報",
+      "bankNote": "以下は仮情報です。正式公開時に正しい情報へ差し替えてください。",
+      "contactRows": [
+        {
+          "label": "会社名",
+          "value": "株式会社 吉源商事"
+        },
+        {
+          "label": "電話番号",
+          "value": "000-0000-0000"
+        },
+        {
+          "label": "メール",
+          "value": "info@example.com"
+        },
+        {
+          "label": "所在地",
+          "value": "千葉県佐倉市坂戸1371-1"
+        }
+      ],
+      "bankRows": [
+        {
+          "label": "銀行名",
+          "value": "〇〇銀行"
+        },
+        {
+          "label": "支店名",
+          "value": "〇〇支店"
+        },
+        {
+          "label": "口座種別",
+          "value": "普通"
+        },
+        {
+          "label": "口座番号",
+          "value": "0000000"
+        },
+        {
+          "label": "口座名義",
+          "value": "株式会社 吉源商事"
+        }
+      ],
+      "mapTitle": "アクセス",
+      "mapText": "所在地を地図で確認できます。ご来訪の際は、事前に公開連絡先よりご確認ください。",
+      "mapAddress": "千葉県佐倉市坂戸1371-1"
+    }
+  },
+  "zh": {
+    "common": {
+      "companyName": "株式会社 吉源商事",
+      "tagline": "连接资源循环与国际流通的金属回收伙伴",
+      "nav": {
+        "home": "首页",
+        "company": "企业信息",
+        "products": "经营品类",
+        "facilities": "设备与案例",
+        "gallery": "图片展示",
+        "contact": "联系方式"
+      },
+      "language": "显示语言",
+      "footerLead": "本网站用于清晰展示资源循环相关业务、经营品类、设备和联系方式。",
+      "footerNote": "当前内容为正式公开前的草案，文字、照片和公司信息将陆续替换。",
+      "copyright": "© 2026 Yoshigen Shoji Co., Ltd. All Rights Reserved.",
+      "viewMore": "查看详情",
+      "relatedTitle": "相关页面",
+      "ctaTitle": "关于业务内容与经营品类",
+      "ctaText": "请确认网站公开信息，并根据需要通过公开联系方式咨询。",
+      "ctaButton": "查看联系方式",
+      "photoCredits": "照片来源"
+    },
+    "home": {
+      "metaTitle": "株式会社 吉源商事｜金属回收与资源循环",
+      "heroKicker": "MATERIALS × TECHNOLOGY",
+      "heroTitle": "让资源的可能，连接下一代产业。",
+      "heroLead": "从黑色金属、有色金属到电机与工业机械，让金属资源连接制造业的下一步。",
+      "heroPrimary": "查看经营品类",
+      "heroSecondary": "查看公司信息",
+      "aboutTitle": "了解材料，传递价值。",
+      "aboutText": "根据金属的种类与状态，进行收购、分拣、保管及出货。吉源商事将产业现场的资源连接到下一次利用。",
+      "servicesTitle": "主要服务",
+      "flowTitle": "交易流程",
+      "productsTitle": "经营品目一览",
+      "services": [
+        {
+          "title": "业务介绍",
+          "text": "清晰整理金属资源相关的主要业务内容。",
+          "link": "facilities.html"
+        },
+        {
+          "title": "经营品类",
+          "text": "以列表形式展示铁类、有色金属等经营品类。",
+          "link": "products.html"
+        },
+        {
+          "title": "公司信息",
+          "text": "刊登公司概要、地址、联系方式等对外基本信息。",
+          "link": "company.html"
+        }
+      ],
+      "flow": [
+        {
+          "step": "01",
+          "title": "确认信息",
+          "text": "确认公司信息和业务内容。"
+        },
+        {
+          "step": "02",
+          "title": "确认品类",
+          "text": "确认经营品类和相关信息。"
+        },
+        {
+          "step": "03",
+          "title": "确认设备",
+          "text": "查看设备、案例和照片。"
+        },
+        {
+          "step": "04",
+          "title": "确认联系",
+          "text": "根据需要查看公开联系方式。"
+        }
+      ]
+    },
+    "company": {
+      "metaTitle": "企业信息｜株式会社 吉源商事",
+      "pageKicker": "COMPANY",
+      "pageTitle": "企业信息",
+      "pageLead": "刊登公司基本信息、代表致辞和业务方针。",
+      "messageTitle": "代表致辞",
+      "messageText": "感谢各位一直以来的支持。本公司重视资源的合理利用，并努力提供便于相关人员确认的信息。今后也将保持诚信的态度，努力成为让客户和地区社会信赖的企业。",
+      "outlineTitle": "公司概要",
+      "philosophyTitle": "我们的重视事项",
+      "outline": [
+        {
+          "label": "公司名称",
+          "value": "株式会社 吉源商事"
+        },
+        {
+          "label": "业务内容",
+          "value": "金属资源相关的收购、分选、保管、出货等"
+        },
+        {
+          "label": "经营品类",
+          "value": "铁、有色金属、线材、机械类等"
+        },
+        {
+          "label": "地址",
+          "value": "千叶县佐仓市坂户1371-1"
+        },
+        {
+          "label": "代表者",
+          "value": "代表者姓名预定刊登"
+        }
+      ],
+      "philosophy": [
+        {
+          "title": "清晰的信息",
+          "text": "整理并刊登便于外部人员确认的信息。"
+        },
+        {
+          "title": "诚信的态度",
+          "text": "重视让相关人员安心的对应方式。"
+        },
+        {
+          "title": "持续改进",
+          "text": "根据需要更新照片、文字和信息。"
+        }
+      ],
+      "messageSignature": "代表董事　姓名预定刊登"
+    },
+    "products": {
+      "metaTitle": "经营品类｜株式会社 吉源商事",
+      "pageKicker": "PRODUCTS",
+      "pageTitle": "按材料与机械浏览产品",
+      "pageLead": "浏览9类经营品目及其常见示例。具体交易条件与可否接收，请根据品目和状态咨询。",
+      "items": [
+        {
+          "title": "铁废料",
+          "category": "Ferrous",
+          "text": "经营建筑、工厂、拆解现场等产生的铁类废料。",
+          "id": "steel",
+          "group": "ferrous",
+          "examples": "铁材与钢材 / 工厂废金属"
+        },
+        {
+          "title": "铜",
+          "category": "Copper",
+          "text": "经营铜线、铜材、铜屑等再资源化价值较高的有色金属。",
+          "id": "copper",
+          "group": "nonferrous",
+          "examples": "铜线 / 铜材 / 废铜"
+        },
+        {
+          "title": "铝",
+          "category": "Aluminum",
+          "text": "根据状态确认铝窗框、铝材、机械部件等。",
+          "id": "aluminum",
+          "group": "nonferrous",
+          "examples": "铝窗框 / 铝材 / 机械零件"
+        },
+        {
+          "title": "不锈钢",
+          "category": "Stainless",
+          "text": "按种类整理耐腐蚀的不锈钢材料并出货。",
+          "id": "stainless",
+          "group": "nonferrous",
+          "examples": "不锈钢材料 / 管材及部件"
+        },
+        {
+          "title": "黄铜",
+          "category": "Brass",
+          "text": "经营黄铜部件、阀门、金属配件等。",
+          "id": "brass",
+          "group": "nonferrous",
+          "examples": "阀门 / 五金 / 黄铜零件"
+        },
+        {
+          "title": "电线",
+          "category": "Wire",
+          "text": "确认各种电线、电缆的材料和状态。",
+          "id": "wire",
+          "group": "nonferrous",
+          "examples": "绝缘电线 / 各类电缆"
+        },
+        {
+          "title": "马达",
+          "category": "Motor",
+          "text": "经营工厂设备和机械中产生的马达类。",
+          "id": "motor",
+          "group": "machinery",
+          "examples": "工业电机 / 设备电机"
+        },
+        {
+          "title": "工业机械",
+          "category": "Machinery",
+          "text": "旧机械、设备部材等可按个别条件咨询。",
+          "id": "machinery",
+          "group": "machinery",
+          "examples": "废旧机械 / 设备部件"
+        },
+        {
+          "title": "拆解金属",
+          "category": "Demolition",
+          "text": "对应拆解现场产生的金属资源确认、整理和出货。",
+          "id": "demolition-metal",
+          "group": "ferrous",
+          "examples": "拆解铁材 / 混合金属"
+        }
+      ],
+      "filters": [
+        {
+          "id": "all",
+          "label": "全部"
+        },
+        {
+          "id": "ferrous",
+          "label": "黑色金属"
+        },
+        {
+          "id": "nonferrous",
+          "label": "有色金属"
+        },
+        {
+          "id": "machinery",
+          "label": "机械与零件"
+        }
+      ],
+      "examplesLabel": "常见示例",
+      "enquiryLabel": "咨询此品目",
+      "illustrationLabel": "品目参考照片",
+      "photoNote": "照片为材料与机械的参考图片。"
+    },
+    "facilities": {
+      "metaTitle": "设备与案例｜株式会社 吉源商事",
+      "pageKicker": "FACILITIES",
+      "pageTitle": "设备与案例",
+      "pageLead": "此页面用于介绍设备、作业环境和案例照片。",
+      "cases": [
+        {
+          "title": "设备与场地",
+          "text": "结合照片介绍保管场地和作业环境概要。",
+          "stat": "YARD",
+          "detailLead": "这是设备与场地的临时详细说明。正式公开时将刊登场地、保管区域、作业动线和设备照片。",
+          "detailItems": [
+            "保管区域概要",
+            "作业环境介绍",
+            "安全管理说明"
+          ],
+          "id": "yard"
+        },
+        {
+          "title": "分选与管理",
+          "text": "刊登按品类整理和管理相关的信息。",
+          "stat": "SORT",
+          "detailLead": "这是分选与管理的临时详细说明。正式公开时将刊登按品类整理的方法和管理体制照片。",
+          "detailItems": [
+            "按品类整理",
+            "保管状态确认",
+            "管理体制介绍"
+          ],
+          "id": "sorting"
+        },
+        {
+          "title": "出货与联动",
+          "text": "以清晰方式介绍出货和相关作业流程。",
+          "stat": "SHIP",
+          "detailLead": "这是出货与联动的临时详细说明。正式公开时将刊登出货准备、运输和相关合作内容。",
+          "detailItems": [
+            "出货准备流程",
+            "运输概要",
+            "相关方联动"
+          ],
+          "id": "shipment"
+        }
+      ],
+      "detailTitle": "详细信息"
+    },
+    "gallery": {
+      "metaTitle": "图片展示｜株式会社 吉源商事",
+      "pageKicker": "GALLERY",
+      "pageTitle": "图片展示",
+      "pageLead": "此页面用于刊登公司、设备、场地和经营品类等照片。",
+      "sections": [
+        {
+          "title": "公司外观",
+          "text": "预定刊登体现企业氛围的照片。",
+          "id": "company"
+        },
+        {
+          "title": "场地",
+          "text": "预定刊登保管、分选和作业动线照片。",
+          "id": "yard"
+        },
+        {
+          "title": "港口与出货",
+          "text": "预定刊登出货和运输相关照片。",
+          "id": "port"
+        },
+        {
+          "title": "经营品类",
+          "text": "预定刊登主要金属废料照片。",
+          "id": "products"
+        }
+      ]
+    },
+    "contact": {
+      "metaTitle": "联系方式｜株式会社 吉源商事",
+      "pageKicker": "CONTACT",
+      "pageTitle": "联系方式",
+      "pageLead": "此页面用于确认公开联系方式、地址和银行账户信息。",
+      "contactTitle": "公开联系方式",
+      "bankTitle": "银行账户信息",
+      "bankNote": "以下为临时信息，正式公开时请替换为正确信息。",
+      "contactRows": [
+        {
+          "label": "公司名称",
+          "value": "株式会社 吉源商事"
+        },
+        {
+          "label": "电话",
+          "value": "000-0000-0000"
+        },
+        {
+          "label": "邮箱",
+          "value": "info@example.com"
+        },
+        {
+          "label": "地址",
+          "value": "千叶县佐仓市坂户1371-1"
+        }
+      ],
+      "bankRows": [
+        {
+          "label": "银行名",
+          "value": "〇〇银行"
+        },
+        {
+          "label": "支店名",
+          "value": "〇〇支店"
+        },
+        {
+          "label": "账户类型",
+          "value": "普通"
+        },
+        {
+          "label": "账号",
+          "value": "0000000"
+        },
+        {
+          "label": "账户名义",
+          "value": "株式会社 吉源商事"
+        }
+      ],
+      "mapTitle": "交通位置",
+      "mapText": "可在地图中确认所在地。来访前请通过公开联系方式提前确认。",
+      "mapAddress": "千叶县佐仓市坂户1371-1"
+    }
+  },
+  "en": {
+    "common": {
+      "companyName": "Yoshigen Shoji Co., Ltd.",
+      "tagline": "A metal recycling partner connecting resource circulation and global distribution",
+      "nav": {
+        "home": "Home",
+        "company": "Company",
+        "products": "Products",
+        "facilities": "Facilities",
+        "gallery": "Gallery",
+        "contact": "Contact"
+      },
+      "language": "Language",
+      "footerLead": "This website presents resource circulation business information, product categories, facilities, and contact details clearly.",
+      "footerNote": "This is a draft before official release. Text, photos, and company details will be replaced as needed.",
+      "copyright": "© 2026 Yoshigen Shoji Co., Ltd. All Rights Reserved.",
+      "viewMore": "View more",
+      "relatedTitle": "Related Pages",
+      "ctaTitle": "Business and Product Information",
+      "ctaText": "Please review the public information and use the listed contact details when needed.",
+      "ctaButton": "View Contact Information",
+      "photoCredits": "Photo credits"
+    },
+    "home": {
+      "metaTitle": "Yoshigen Shoji Co., Ltd. | Metal Recycling and Resource Circulation",
+      "heroKicker": "MATERIALS × TECHNOLOGY",
+      "heroTitle": "Connecting resources. Advancing industry.",
+      "heroLead": "From ferrous and non-ferrous metals to motors and industrial machinery, connecting metal resources with their next use.",
+      "heroPrimary": "View Products",
+      "heroSecondary": "Company Profile",
+      "aboutTitle": "Know the material. Preserve its value.",
+      "aboutText": "From purchasing and sorting to storage and shipment, Yoshigen Shoji connects industrial metal resources with their next use.",
+      "servicesTitle": "Core Services",
+      "flowTitle": "Transaction Flow",
+      "productsTitle": "Our materials & machinery",
+      "services": [
+        {
+          "title": "Business Overview",
+          "text": "Key business activities related to metal resources are organized clearly.",
+          "link": "facilities.html"
+        },
+        {
+          "title": "Product Categories",
+          "text": "Ferrous and non-ferrous categories are presented in an easy-to-check list.",
+          "link": "products.html"
+        },
+        {
+          "title": "Company Information",
+          "text": "Public company profile, address, and contact details are listed.",
+          "link": "company.html"
+        }
+      ],
+      "flow": [
+        {
+          "step": "01",
+          "title": "Review Information",
+          "text": "Check company and business information."
+        },
+        {
+          "step": "02",
+          "title": "Review Products",
+          "text": "Check product categories and related information."
+        },
+        {
+          "step": "03",
+          "title": "Review Facilities",
+          "text": "View facilities, examples, and photos."
+        },
+        {
+          "step": "04",
+          "title": "Review Contact",
+          "text": "Use public contact information when needed."
+        }
+      ]
+    },
+    "company": {
+      "metaTitle": "Company | Yoshigen Shoji Co., Ltd.",
+      "pageKicker": "COMPANY",
+      "pageTitle": "Company",
+      "pageLead": "Basic company information, representative message, and business principles are listed here.",
+      "messageTitle": "President Message",
+      "messageText": "Thank you for your continued support. We value the careful use of resources and aim to provide information that stakeholders can review with confidence. We will continue to act with sincerity and strive to be a company trusted by customers and the local community.",
+      "outlineTitle": "Company Profile",
+      "philosophyTitle": "Our Principles",
+      "outline": [
+        {
+          "label": "Company",
+          "value": "Yoshigen Shoji Co., Ltd."
+        },
+        {
+          "label": "Business",
+          "value": "Metal resource purchasing, sorting, storage, and shipment"
+        },
+        {
+          "label": "Products",
+          "value": "Ferrous metals, non-ferrous metals, wires, machinery, and related items"
+        },
+        {
+          "label": "Address",
+          "value": "1371-1 Sakado, Sakura-shi, Chiba, Japan"
+        },
+        {
+          "label": "Representative",
+          "value": "Representative name to be added"
+        }
+      ],
+      "philosophy": [
+        {
+          "title": "Clear Information",
+          "text": "We organize information so external visitors can review it easily."
+        },
+        {
+          "title": "Sincere Attitude",
+          "text": "We value communication that gives stakeholders confidence."
+        },
+        {
+          "title": "Continuous Improvement",
+          "text": "Photos, copy, and information will be updated as needed."
+        }
+      ],
+      "messageSignature": "Representative Director - Name to be added"
+    },
+    "products": {
+      "metaTitle": "Products | Yoshigen Shoji Co., Ltd.",
+      "pageKicker": "PRODUCTS",
+      "pageTitle": "Explore materials and machinery",
+      "pageLead": "Explore nine material categories and common examples. Contact us to confirm acceptance and terms for your materials and their condition.",
+      "items": [
+        {
+          "title": "Steel Scrap",
+          "category": "Ferrous",
+          "text": "Steel scrap generated from construction, factories, and demolition sites.",
+          "id": "steel",
+          "group": "ferrous",
+          "examples": "Iron & steel / Factory scrap"
+        },
+        {
+          "title": "Copper",
+          "category": "Copper",
+          "text": "Copper wire, copper material, and copper scrap with high recycling value.",
+          "id": "copper",
+          "group": "nonferrous",
+          "examples": "Copper wire / Stock / Offcuts"
+        },
+        {
+          "title": "Aluminum",
+          "category": "Aluminum",
+          "text": "Aluminum sash, materials, and machinery parts reviewed by condition.",
+          "id": "aluminum",
+          "group": "nonferrous",
+          "examples": "Window frames / Stock / Machine parts"
+        },
+        {
+          "title": "Stainless Steel",
+          "category": "Stainless",
+          "text": "Stainless materials sorted by type for shipment.",
+          "id": "stainless",
+          "group": "nonferrous",
+          "examples": "Stainless stock / Pipes & components"
+        },
+        {
+          "title": "Brass",
+          "category": "Brass",
+          "text": "Brass parts, valves, fittings, and related materials.",
+          "id": "brass",
+          "group": "nonferrous",
+          "examples": "Valves / Fittings / Brass components"
+        },
+        {
+          "title": "Wire",
+          "category": "Wire",
+          "text": "Various wires and cables reviewed by material and condition.",
+          "id": "wire",
+          "group": "nonferrous",
+          "examples": "Insulated wire / Cables"
+        },
+        {
+          "title": "Motors",
+          "category": "Motor",
+          "text": "Motors generated from factory equipment and machinery.",
+          "id": "motor",
+          "group": "machinery",
+          "examples": "Industrial motors / Equipment motors"
+        },
+        {
+          "title": "Industrial Machinery",
+          "category": "Machinery",
+          "text": "Used machinery and equipment materials reviewed by individual conditions.",
+          "id": "machinery",
+          "group": "machinery",
+          "examples": "Used machinery / Equipment components"
+        },
+        {
+          "title": "Demolition Metals",
+          "category": "Demolition",
+          "text": "Metal resources generated from demolition sites, organized and shipped as required.",
+          "id": "demolition-metal",
+          "group": "ferrous",
+          "examples": "Demolition steel / Mixed metals"
+        }
+      ],
+      "filters": [
+        {
+          "id": "all",
+          "label": "All materials"
+        },
+        {
+          "id": "ferrous",
+          "label": "Ferrous metals"
+        },
+        {
+          "id": "nonferrous",
+          "label": "Non-ferrous metals"
+        },
+        {
+          "id": "machinery",
+          "label": "Machinery & parts"
+        }
+      ],
+      "examplesLabel": "Typical examples",
+      "enquiryLabel": "Enquire about this material",
+      "illustrationLabel": "Reference photograph",
+      "photoNote": "Photographs show reference examples of materials and machinery."
+    },
+    "facilities": {
+      "metaTitle": "Facilities | Yoshigen Shoji Co., Ltd.",
+      "pageKicker": "FACILITIES",
+      "pageTitle": "Facilities and Cases",
+      "pageLead": "This page introduces facilities, work environments, and example photos.",
+      "cases": [
+        {
+          "title": "Facilities and Yard",
+          "text": "Storage areas and work environments are introduced with photos.",
+          "stat": "YARD",
+          "detailLead": "This is placeholder detail copy for facilities and yards. Official content can include site layout, storage areas, workflow, and facility photos.",
+          "detailItems": [
+            "Storage area overview",
+            "Work environment introduction",
+            "Safety management notes"
+          ],
+          "id": "yard"
+        },
+        {
+          "title": "Sorting and Management",
+          "text": "Information about category-based sorting and management is listed.",
+          "stat": "SORT",
+          "detailLead": "This is placeholder detail copy for sorting and management. Official content can include sorting methods, category handling, and management photos.",
+          "detailItems": [
+            "Category-based sorting",
+            "Storage condition review",
+            "Management system overview"
+          ],
+          "id": "sorting"
+        },
+        {
+          "title": "Shipment and Coordination",
+          "text": "Shipment and related work flows are introduced clearly.",
+          "stat": "SHIP",
+          "detailLead": "This is placeholder detail copy for shipment and coordination. Official content can include shipment preparation, transport, and partner coordination.",
+          "detailItems": [
+            "Shipment preparation flow",
+            "Transport overview",
+            "Partner coordination"
+          ],
+          "id": "shipment"
+        }
+      ],
+      "detailTitle": "Details"
+    },
+    "gallery": {
+      "metaTitle": "Gallery | Yoshigen Shoji Co., Ltd.",
+      "pageKicker": "GALLERY",
+      "pageTitle": "Photo Gallery",
+      "pageLead": "Photos of the company, facilities, yard, and product categories will be listed here.",
+      "sections": [
+        {
+          "title": "Company Exterior",
+          "text": "Photos conveying the company atmosphere will be added.",
+          "id": "company"
+        },
+        {
+          "title": "Yard",
+          "text": "Storage, sorting, and workflow photos will be added.",
+          "id": "yard"
+        },
+        {
+          "title": "Port and Shipment",
+          "text": "Shipment and transportation photos will be added.",
+          "id": "port"
+        },
+        {
+          "title": "Product Categories",
+          "text": "Photos of major metal scrap categories will be added.",
+          "id": "products"
+        }
+      ]
+    },
+    "contact": {
+      "metaTitle": "Contact | Yoshigen Shoji Co., Ltd.",
+      "pageKicker": "CONTACT",
+      "pageTitle": "Contact Information",
+      "pageLead": "Public contact details, address, and bank account information can be reviewed here.",
+      "contactTitle": "Public Contact",
+      "bankTitle": "Bank Account Information",
+      "bankNote": "The following information is temporary. Replace it with correct details before official release.",
+      "contactRows": [
+        {
+          "label": "Company",
+          "value": "Yoshigen Shoji Co., Ltd."
+        },
+        {
+          "label": "Phone",
+          "value": "000-0000-0000"
+        },
+        {
+          "label": "Email",
+          "value": "info@example.com"
+        },
+        {
+          "label": "Address",
+          "value": "1371-1 Sakado, Sakura-shi, Chiba, Japan"
+        }
+      ],
+      "bankRows": [
+        {
+          "label": "Bank",
+          "value": "Sample Bank"
+        },
+        {
+          "label": "Branch",
+          "value": "Sample Branch"
+        },
+        {
+          "label": "Account Type",
+          "value": "Ordinary"
+        },
+        {
+          "label": "Account No.",
+          "value": "0000000"
+        },
+        {
+          "label": "Account Name",
+          "value": "Yoshigen Shoji Co., Ltd."
+        }
+      ],
+      "mapTitle": "Access",
+      "mapText": "The company location can be checked on the map. Please confirm by public contact details before visiting.",
+      "mapAddress": "1371-1 Sakado, Sakura-shi, Chiba, Japan"
+    }
+  }
+}
