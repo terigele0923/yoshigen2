@@ -1,9 +1,11 @@
+// JSONの読み込み・多言語切り替え・各ページの内容表示を管理する。
 (function () {
   const LANGS = ["ja", "zh", "en"];
   const labels = { ja: "日本語", zh: "中文", en: "English" };
   let dictionary = null;
   let siteConfig = null;
 
+  // JSONの文字列をHTMLに埋め込む前に、特殊文字をエスケープする。
   const escapeHTML = (value) =>
     String(value ?? "").replace(
       /[&<>"']/g,
@@ -17,10 +19,12 @@
         })[char],
     );
 
+  // ドット区切りのキー（例：home.title）から翻訳データの値を取得する。
   function getValue(source, path) {
     return path.split(".").reduce((value, key) => value && value[key], source);
   }
 
+  // URLのlang指定、保存済みの言語、日本語の順で表示言語を決める。
   function currentLang() {
     const param = new URLSearchParams(window.location.search).get("lang");
     let saved = null;
@@ -32,6 +36,7 @@
     return LANGS.includes(param) ? param : LANGS.includes(saved) ? saved : "ja";
   }
 
+  // 会社概要・連絡先・銀行情報などの項目名と値の一覧を表示する。
   function renderRows(target, rows) {
     if (!target || !Array.isArray(rows)) return;
     target.innerHTML = rows
@@ -42,6 +47,7 @@
       .join("");
   }
 
+  // 事業紹介や企業理念のカードを表示する。
   function renderFeatureCards(target, items, linkLabel) {
     if (!target || !Array.isArray(items)) return;
     target.innerHTML = items
@@ -52,6 +58,7 @@
       .join("");
   }
 
+  // トップのメインビジュアル内に、先頭3件の事業紹介リンクを表示する。
   function renderHeroServices(target, items) {
     if (!target || !Array.isArray(items)) return;
     target.innerHTML = items
@@ -63,6 +70,7 @@
       .join("");
   }
 
+  // 取引の流れを手順ごとのカードで表示する。
   function renderFlow(target, items) {
     if (!target || !Array.isArray(items)) return;
     target.innerHTML = items
@@ -73,6 +81,7 @@
       .join("");
   }
 
+  // 商品写真・分類・説明・取扱例・問い合わせリンクを商品カードにまとめる。
   function renderProducts(target, items, copy) {
     if (!target || !Array.isArray(items)) return;
     target.innerHTML = items
@@ -83,6 +92,7 @@
       .join("");
   }
 
+  // 商品分類のボタンを作成し、選択された分類で商品を絞り込む。
   function renderProductFilters(copy) {
     const target = document.querySelector('[data-render="productFilters"]');
     if (!target) return;
@@ -110,6 +120,7 @@
     };
   }
 
+  // 設備の概要と詳細欄へのリンクをカードで表示する。
   function renderCases(target, items, images) {
     if (!target || !Array.isArray(items)) return;
     target.innerHTML = items
@@ -120,6 +131,7 @@
       .join("");
   }
 
+  // 設備ごとの写真・説明・詳細項目を表示する。
   function renderFacilityDetails(target, items, images) {
     if (!target || !Array.isArray(items)) return;
     target.innerHTML = items
@@ -133,6 +145,7 @@
       .join("");
   }
 
+  // 写真と説明文をギャラリーのカードで表示する。
   function renderGallery(target, items, images) {
     if (!target || !Array.isArray(items)) return;
     target.innerHTML = items
@@ -143,7 +156,9 @@
       .join("");
   }
 
+  // 各ページのdata-render属性に対応する場所へ、JSONの内容を表示する。
   function renderDynamic(data, site, lang) {
+    // 商品の共通情報に選択言語の文章を重ねる。翻訳がなければ日本語を使う。
     const products = site.products.map((item) => ({
       ...item,
       ...(item[lang] || item.ja),
@@ -208,6 +223,7 @@
     );
   }
 
+  // 翻訳文をdata/i18n.jsonから読み込み、ページ内で再利用する。
   async function loadDictionary() {
     if (dictionary) return dictionary;
     const response = await fetch("data/i18n.json", { cache: "no-store" });
@@ -216,6 +232,7 @@
     return dictionary;
   }
 
+  // 商品・画像・地図の設定をdata/site.jsonから読み込み、ページ内で再利用する。
   async function loadSiteConfig() {
     if (siteConfig) return siteConfig;
     const response = await fetch("data/site.json", { cache: "no-store" });
@@ -224,6 +241,7 @@
     return siteConfig;
   }
 
+  // 共通設定からメインビジュアル・ページ背景・地図を設定する。
   function renderSite(config) {
     const carousel = document.getElementById("lpCarousel");
     const track = carousel && carousel.querySelector(".hero-track");
@@ -249,6 +267,7 @@
       map.src = `https://www.google.com/maps?q=${encodeURIComponent(config.contact.mapQuery)}&output=embed`;
   }
 
+  // 指定言語の文章・商品一覧・言語ボタンを更新し、表示完了を通知する。
   async function applyLanguage(lang) {
     const [all, site] = await Promise.all([loadDictionary(), loadSiteConfig()]);
     if (!document.body.dataset.siteReady) {
@@ -277,9 +296,11 @@
     renderDynamic(data, site, lang);
     document.body.dataset.siteReady = "true";
     document.querySelector(".content-load-error")?.remove();
+    // main.jsに表示完了を知らせ、カードなどの演出を初期化できるようにする。
     window.dispatchEvent(new CustomEvent("yoshigen:i18n-ready"));
   }
 
+  // JSONを読み込めない場合に、案内文と再読み込みボタンを表示する。
   function showLoadError(error) {
     console.error("Content load failed:", error);
     if (document.querySelector(".content-load-error")) return;
@@ -300,6 +321,7 @@
     document.querySelector("main").prepend(notice);
   }
 
+  // 初回の言語表示と、言語切り替えボタンのクリック処理を設定する。
   document.addEventListener("DOMContentLoaded", () => {
     applyLanguage(currentLang()).catch(showLoadError);
     document.querySelectorAll(".lang-switch button").forEach((button) => {

@@ -1,14 +1,17 @@
+// 初期表示時にメニューとスクロール進捗を設定する。
 document.addEventListener("DOMContentLoaded", () => {
   initNavigation();
   updateProgress();
   window.addEventListener("scroll", updateProgress, { passive: true });
 });
 
+// JSONの表示・言語切り替え後に、新しく生成された要素の演出を設定する。
 window.addEventListener("yoshigen:i18n-ready", () => {
   initCanvasMotion();
   initTilts();
 });
 
+// 現在のページのメニューを強調し、モバイルメニューの開閉を設定する。
 function initNavigation() {
   const header = document.querySelector(".site-header");
   const active = header && header.dataset.activePage;
@@ -29,6 +32,7 @@ function initNavigation() {
   });
 }
 
+// カードにマウス位置に応じた傾きを付ける。動きを減らす設定では無効にする。
 function initTilts() {
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   document
@@ -47,10 +51,12 @@ function initTilts() {
     });
 }
 
+// 背景の点と線のアニメーションを初期化する。
 function initCanvasMotion() {
   document
     .querySelectorAll("canvas.motion-canvas, canvas.motion-canvas-small")
     .forEach((canvas) => {
+      // 言語切り替え時に同じキャンバスの描画処理を重複登録しない。
       if (canvas.dataset.motionReady) return;
       canvas.dataset.motionReady = "true";
       const ctx = canvas.getContext("2d");
@@ -63,6 +69,7 @@ function initCanvasMotion() {
           vy: (Math.random() - 0.5) * 0.0007,
         }),
       );
+      // 表示サイズと画面の解像度に合わせてキャンバスの描画サイズを調整する。
       function resize() {
         const rect = canvas.getBoundingClientRect();
         canvas.width = Math.max(
@@ -74,6 +81,7 @@ function initCanvasMotion() {
           Math.floor(rect.height * window.devicePixelRatio),
         );
       }
+      // 点を移動して近くの点同士を線で結び、次のフレームを描画する。
       function draw() {
         const w = canvas.width;
         const h = canvas.height;
@@ -120,6 +128,7 @@ function initCanvasMotion() {
     });
 }
 
+// ページのスクロール位置を進捗バーの幅に反映する。
 function updateProgress() {
   const bar = document.querySelector(".scroll-progress");
   if (!bar) return;
