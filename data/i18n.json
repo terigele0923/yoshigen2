@@ -125,80 +125,6 @@
       "pageKicker": "PRODUCTS",
       "pageTitle": "素材と機械から探す、取扱商品",
       "pageLead": "9つの取扱品目を、特徴と主な対象例からご覧いただけます。お取引の可否・条件は、品目や状態に応じてお問い合わせください。",
-      "items": [
-        {
-          "title": "鉄スクラップ",
-          "category": "Ferrous",
-          "text": "建築、工場、解体現場などから発生する鉄系スクラップを取り扱います。",
-          "id": "steel",
-          "group": "ferrous",
-          "examples": "鉄材・鋼材 / 工場発生スクラップ"
-        },
-        {
-          "title": "銅",
-          "category": "Copper",
-          "text": "銅線、銅材、銅屑など、再資源化価値の高い非鉄金属を扱います。",
-          "id": "copper",
-          "group": "nonferrous",
-          "examples": "銅線 / 銅材 / 銅屑"
-        },
-        {
-          "title": "アルミ",
-          "category": "Aluminum",
-          "text": "アルミサッシ、アルミ材、機械部品などを状態に応じて確認します。",
-          "id": "aluminum",
-          "group": "nonferrous",
-          "examples": "アルミサッシ / アルミ材 / 機械部品"
-        },
-        {
-          "title": "ステンレス",
-          "category": "Stainless",
-          "text": "耐食性を持つステンレス材を種類ごとに整理し、出荷します。",
-          "id": "stainless",
-          "group": "nonferrous",
-          "examples": "ステンレス材 / 配管・部材"
-        },
-        {
-          "title": "真鍮",
-          "category": "Brass",
-          "text": "真鍮部品、バルブ、金具類などを取り扱います。",
-          "id": "brass",
-          "group": "nonferrous",
-          "examples": "バルブ / 金具 / 真鍮部品"
-        },
-        {
-          "title": "雑線",
-          "category": "Wire",
-          "text": "各種電線、ケーブル類を素材・状態に合わせて確認します。",
-          "id": "wire",
-          "group": "nonferrous",
-          "examples": "被覆電線 / 各種ケーブル"
-        },
-        {
-          "title": "モーター",
-          "category": "Motor",
-          "text": "工場設備や機械から発生するモーター類を取り扱います。",
-          "id": "motor",
-          "group": "machinery",
-          "examples": "産業用モーター / 設備由来のモーター"
-        },
-        {
-          "title": "工業機械",
-          "category": "Machinery",
-          "text": "使用済み機械、設備部材などを個別条件に応じて相談できます。",
-          "id": "machinery",
-          "group": "machinery",
-          "examples": "使用済み機械 / 設備部材"
-        },
-        {
-          "title": "解体金属",
-          "category": "Demolition",
-          "text": "解体現場から発生する金属資源の確認、整理、出荷に対応します。",
-          "id": "demolition-metal",
-          "group": "ferrous",
-          "examples": "解体現場の鉄材 / 混合金属"
-        }
-      ],
       "filters": [
         {
           "id": "all",
@@ -245,11 +171,7 @@
           "text": "品目ごとの整理や管理に関する情報を掲載します。",
           "stat": "SORT",
           "detailLead": "選別・管理に関する仮の詳細説明です。正式公開時には、品目ごとの整理方法や管理体制の写真を掲載します。",
-          "detailItems": [
-            "品目別の整理",
-            "保管状態の確認",
-            "管理体制の紹介"
-          ],
+          "detailItems": ["品目別の整理", "保管状態の確認", "管理体制の紹介"],
           "id": "sorting"
         },
         {
@@ -474,80 +396,6 @@
       "pageKicker": "PRODUCTS",
       "pageTitle": "按材料与机械浏览产品",
       "pageLead": "浏览9类经营品目及其常见示例。具体交易条件与可否接收，请根据品目和状态咨询。",
-      "items": [
-        {
-          "title": "铁废料",
-          "category": "Ferrous",
-          "text": "经营建筑、工厂、拆解现场等产生的铁类废料。",
-          "id": "steel",
-          "group": "ferrous",
-          "examples": "铁材与钢材 / 工厂废金属"
-        },
-        {
-          "title": "铜",
-          "category": "Copper",
-          "text": "经营铜线、铜材、铜屑等再资源化价值较高的有色金属。",
-          "id": "copper",
-          "group": "nonferrous",
-          "examples": "铜线 / 铜材 / 废铜"
-        },
-        {
-          "title": "铝",
-          "category": "Aluminum",
-          "text": "根据状态确认铝窗框、铝材、机械部件等。",
-          "id": "aluminum",
-          "group": "nonferrous",
-          "examples": "铝窗框 / 铝材 / 机械零件"
-        },
-        {
-          "title": "不锈钢",
-          "category": "Stainless",
-          "text": "按种类整理耐腐蚀的不锈钢材料并出货。",
-          "id": "stainless",
-          "group": "nonferrous",
-          "examples": "不锈钢材料 / 管材及部件"
-        },
-        {
-          "title": "黄铜",
-          "category": "Brass",
-          "text": "经营黄铜部件、阀门、金属配件等。",
-          "id": "brass",
-          "group": "nonferrous",
-          "examples": "阀门 / 五金 / 黄铜零件"
-        },
-        {
-          "title": "电线",
-          "category": "Wire",
-          "text": "确认各种电线、电缆的材料和状态。",
-          "id": "wire",
-          "group": "nonferrous",
-          "examples": "绝缘电线 / 各类电缆"
-        },
-        {
-          "title": "马达",
-          "category": "Motor",
-          "text": "经营工厂设备和机械中产生的马达类。",
-          "id": "motor",
-          "group": "machinery",
-          "examples": "工业电机 / 设备电机"
-        },
-        {
-          "title": "工业机械",
-          "category": "Machinery",
-          "text": "旧机械、设备部材等可按个别条件咨询。",
-          "id": "machinery",
-          "group": "machinery",
-          "examples": "废旧机械 / 设备部件"
-        },
-        {
-          "title": "拆解金属",
-          "category": "Demolition",
-          "text": "对应拆解现场产生的金属资源确认、整理和出货。",
-          "id": "demolition-metal",
-          "group": "ferrous",
-          "examples": "拆解铁材 / 混合金属"
-        }
-      ],
       "filters": [
         {
           "id": "all",
@@ -582,11 +430,7 @@
           "text": "结合照片介绍保管场地和作业环境概要。",
           "stat": "YARD",
           "detailLead": "这是设备与场地的临时详细说明。正式公开时将刊登场地、保管区域、作业动线和设备照片。",
-          "detailItems": [
-            "保管区域概要",
-            "作业环境介绍",
-            "安全管理说明"
-          ],
+          "detailItems": ["保管区域概要", "作业环境介绍", "安全管理说明"],
           "id": "yard"
         },
         {
@@ -594,11 +438,7 @@
           "text": "刊登按品类整理和管理相关的信息。",
           "stat": "SORT",
           "detailLead": "这是分选与管理的临时详细说明。正式公开时将刊登按品类整理的方法和管理体制照片。",
-          "detailItems": [
-            "按品类整理",
-            "保管状态确认",
-            "管理体制介绍"
-          ],
+          "detailItems": ["按品类整理", "保管状态确认", "管理体制介绍"],
           "id": "sorting"
         },
         {
@@ -606,11 +446,7 @@
           "text": "以清晰方式介绍出货和相关作业流程。",
           "stat": "SHIP",
           "detailLead": "这是出货与联动的临时详细说明。正式公开时将刊登出货准备、运输和相关合作内容。",
-          "detailItems": [
-            "出货准备流程",
-            "运输概要",
-            "相关方联动"
-          ],
+          "detailItems": ["出货准备流程", "运输概要", "相关方联动"],
           "id": "shipment"
         }
       ],
@@ -823,80 +659,6 @@
       "pageKicker": "PRODUCTS",
       "pageTitle": "Explore materials and machinery",
       "pageLead": "Explore nine material categories and common examples. Contact us to confirm acceptance and terms for your materials and their condition.",
-      "items": [
-        {
-          "title": "Steel Scrap",
-          "category": "Ferrous",
-          "text": "Steel scrap generated from construction, factories, and demolition sites.",
-          "id": "steel",
-          "group": "ferrous",
-          "examples": "Iron & steel / Factory scrap"
-        },
-        {
-          "title": "Copper",
-          "category": "Copper",
-          "text": "Copper wire, copper material, and copper scrap with high recycling value.",
-          "id": "copper",
-          "group": "nonferrous",
-          "examples": "Copper wire / Stock / Offcuts"
-        },
-        {
-          "title": "Aluminum",
-          "category": "Aluminum",
-          "text": "Aluminum sash, materials, and machinery parts reviewed by condition.",
-          "id": "aluminum",
-          "group": "nonferrous",
-          "examples": "Window frames / Stock / Machine parts"
-        },
-        {
-          "title": "Stainless Steel",
-          "category": "Stainless",
-          "text": "Stainless materials sorted by type for shipment.",
-          "id": "stainless",
-          "group": "nonferrous",
-          "examples": "Stainless stock / Pipes & components"
-        },
-        {
-          "title": "Brass",
-          "category": "Brass",
-          "text": "Brass parts, valves, fittings, and related materials.",
-          "id": "brass",
-          "group": "nonferrous",
-          "examples": "Valves / Fittings / Brass components"
-        },
-        {
-          "title": "Wire",
-          "category": "Wire",
-          "text": "Various wires and cables reviewed by material and condition.",
-          "id": "wire",
-          "group": "nonferrous",
-          "examples": "Insulated wire / Cables"
-        },
-        {
-          "title": "Motors",
-          "category": "Motor",
-          "text": "Motors generated from factory equipment and machinery.",
-          "id": "motor",
-          "group": "machinery",
-          "examples": "Industrial motors / Equipment motors"
-        },
-        {
-          "title": "Industrial Machinery",
-          "category": "Machinery",
-          "text": "Used machinery and equipment materials reviewed by individual conditions.",
-          "id": "machinery",
-          "group": "machinery",
-          "examples": "Used machinery / Equipment components"
-        },
-        {
-          "title": "Demolition Metals",
-          "category": "Demolition",
-          "text": "Metal resources generated from demolition sites, organized and shipped as required.",
-          "id": "demolition-metal",
-          "group": "ferrous",
-          "examples": "Demolition steel / Mixed metals"
-        }
-      ],
       "filters": [
         {
           "id": "all",

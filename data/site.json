@@ -1,22 +1,9 @@
 {
   "hero": {
-    "slides": [
-      "images/technical/engineering.jpg"
-    ]
+    "slides": ["images/technical/engineering.jpg"]
   },
   "pageHeroImage": "images/technical/engineering.jpg",
   "media": {
-    "products": {
-      "steel": "images/technical/steel.jpg",
-      "copper": "images/technical/copper.jpg",
-      "aluminum": "images/technical/aluminum.jpg",
-      "stainless": "images/technical/stainless.png",
-      "brass": "images/technical/brass.jpg",
-      "wire": "images/technical/wire.jpg",
-      "motor": "images/technical/motor.jpg",
-      "machinery": "images/technical/machinery.jpg",
-      "demolition-metal": "images/technical/demolition-metal.jpg"
-    },
     "facilities": {
       "yard": "images/background-image.png",
       "sorting": "images/background-image02.png",
@@ -31,5 +18,196 @@
   },
   "contact": {
     "mapQuery": "千葉県佐倉市坂戸1371-1"
-  }
+  },
+  "products": [
+    {
+      "id": "steel",
+      "image": "images/technical/steel.jpg",
+      "category": "Ferrous",
+      "group": "ferrous",
+      "ja": {
+        "title": "鉄スクラップ",
+        "text": "建築、工場、解体現場などから発生する鉄系スクラップを取り扱います。",
+        "examples": "鉄材・鋼材 / 工場発生スクラップ"
+      },
+      "zh": {
+        "title": "铁废料",
+        "text": "经营建筑、工厂、拆解现场等产生的铁类废料。",
+        "examples": "铁材与钢材 / 工厂废金属"
+      },
+      "en": {
+        "title": "Steel Scrap",
+        "text": "Steel scrap generated from construction, factories, and demolition sites.",
+        "examples": "Iron & steel / Factory scrap"
+      }
+    },
+    {
+      "id": "copper",
+      "image": "images/technical/copper.jpg",
+      "category": "Copper",
+      "group": "nonferrous",
+      "ja": {
+        "title": "銅",
+        "text": "銅線、銅材、銅屑など、再資源化価値の高い非鉄金属を扱います。",
+        "examples": "銅線 / 銅材 / 銅屑"
+      },
+      "zh": {
+        "title": "铜",
+        "text": "经营铜线、铜材、铜屑等再资源化价值较高的有色金属。",
+        "examples": "铜线 / 铜材 / 废铜"
+      },
+      "en": {
+        "title": "Copper",
+        "text": "Copper wire, copper material, and copper scrap with high recycling value.",
+        "examples": "Copper wire / Stock / Offcuts"
+      }
+    },
+    {
+      "id": "aluminum",
+      "image": "images/technical/aluminum.jpg",
+      "category": "Aluminum",
+      "group": "nonferrous",
+      "ja": {
+        "title": "アルミ",
+        "text": "アルミサッシ、アルミ材、機械部品などを状態に応じて確認します。",
+        "examples": "アルミサッシ / アルミ材 / 機械部品"
+      },
+      "zh": {
+        "title": "铝",
+        "text": "根据状态确认铝窗框、铝材、机械部件等。",
+        "examples": "铝窗框 / 铝材 / 机械零件"
+      },
+      "en": {
+        "title": "Aluminum",
+        "text": "Aluminum sash, materials, and machinery parts reviewed by condition.",
+        "examples": "Window frames / Stock / Machine parts"
+      }
+    },
+    {
+      "id": "stainless",
+      "image": "images/technical/stainless.png",
+      "category": "Stainless",
+      "group": "nonferrous",
+      "ja": {
+        "title": "ステンレス",
+        "text": "耐食性を持つステンレス材を種類ごとに整理し、出荷します。",
+        "examples": "ステンレス材 / 配管・部材"
+      },
+      "zh": {
+        "title": "不锈钢",
+        "text": "按种类整理耐腐蚀的不锈钢材料并出货。",
+        "examples": "不锈钢材料 / 管材及部件"
+      },
+      "en": {
+        "title": "Stainless Steel",
+        "text": "Stainless materials sorted by type for shipment.",
+        "examples": "Stainless stock / Pipes & components"
+      }
+    },
+    {
+      "id": "brass",
+      "image": "images/technical/brass.jpg",
+      "category": "Brass",
+      "group": "nonferrous",
+      "ja": {
+        "title": "真鍮",
+        "text": "真鍮部品、バルブ、金具類などを取り扱います。",
+        "examples": "バルブ / 金具 / 真鍮部品"
+      },
+      "zh": {
+        "title": "黄铜",
+        "text": "经营黄铜部件、阀门、金属配件等。",
+        "examples": "阀门 / 五金 / 黄铜零件"
+      },
+      "en": {
+        "title": "Brass",
+        "text": "Brass parts, valves, fittings, and related materials.",
+        "examples": "Valves / Fittings / Brass components"
+      }
+    },
+    {
+      "id": "wire",
+      "image": "images/technical/wire.jpg",
+      "category": "Wire",
+      "group": "nonferrous",
+      "ja": {
+        "title": "雑線",
+        "text": "各種電線、ケーブル類を素材・状態に合わせて確認します。",
+        "examples": "被覆電線 / 各種ケーブル"
+      },
+      "zh": {
+        "title": "电线",
+        "text": "确认各种电线、电缆的材料和状态。",
+        "examples": "绝缘电线 / 各类电缆"
+      },
+      "en": {
+        "title": "Wire",
+        "text": "Various wires and cables reviewed by material and condition.",
+        "examples": "Insulated wire / Cables"
+      }
+    },
+    {
+      "id": "motor",
+      "image": "images/technical/motor.jpg",
+      "category": "Motor",
+      "group": "machinery",
+      "ja": {
+        "title": "モーター",
+        "text": "工場設備や機械から発生するモーター類を取り扱います。",
+        "examples": "産業用モーター / 設備由来のモーター"
+      },
+      "zh": {
+        "title": "马达",
+        "text": "经营工厂设备和机械中产生的马达类。",
+        "examples": "工业电机 / 设备电机"
+      },
+      "en": {
+        "title": "Motors",
+        "text": "Motors generated from factory equipment and machinery.",
+        "examples": "Industrial motors / Equipment motors"
+      }
+    },
+    {
+      "id": "machinery",
+      "image": "images/technical/machinery.jpg",
+      "category": "Machinery",
+      "group": "machinery",
+      "ja": {
+        "title": "工業機械",
+        "text": "使用済み機械、設備部材などを個別条件に応じて相談できます。",
+        "examples": "使用済み機械 / 設備部材"
+      },
+      "zh": {
+        "title": "工业机械",
+        "text": "旧机械、设备部材等可按个别条件咨询。",
+        "examples": "废旧机械 / 设备部件"
+      },
+      "en": {
+        "title": "Industrial Machinery",
+        "text": "Used machinery and equipment materials reviewed by individual conditions.",
+        "examples": "Used machinery / Equipment components"
+      }
+    },
+    {
+      "id": "demolition-metal",
+      "image": "images/technical/demolition-metal.jpg",
+      "category": "Demolition",
+      "group": "ferrous",
+      "ja": {
+        "title": "解体金属",
+        "text": "解体現場から発生する金属資源の確認、整理、出荷に対応します。",
+        "examples": "解体現場の鉄材 / 混合金属"
+      },
+      "zh": {
+        "title": "拆解金属",
+        "text": "对应拆解现场产生的金属资源确认、整理和出货。",
+        "examples": "拆解铁材 / 混合金属"
+      },
+      "en": {
+        "title": "Demolition Metals",
+        "text": "Metal resources generated from demolition sites, organized and shipped as required.",
+        "examples": "Demolition steel / Mixed metals"
+      }
+    }
+  ]
 }
