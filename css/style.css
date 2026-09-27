@@ -1543,7 +1543,7 @@ body {
 }
 
 .hero-copy h1 {
-    font-size: clamp(2.4rem, 3.7vw, 3.5rem);
+    font-size: 39px;
     line-height: 1.4;
     letter-spacing: 0.02em;
     text-shadow: none;
@@ -2036,3 +2036,186 @@ button:focus-visible {
 .photo-credit-list a {
     text-decoration: underline;
 }
+
+/* News ticker: header直下で、JSONから読み込んだニュースを下から上へ流す。 */
+
+/* Canvas news ticker: square translucent card over the hero canvas area. */
+.news-vertical {
+    position: relative;
+    z-index: 6;
+}
+
+.news-vertical--canvas {
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    width: 600px;
+    height: 155px;
+    padding: 22px 24px;
+    overflow: hidden;
+    color: var(--green-950);
+    background: rgba(237, 247, 254, 0.76);
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    border-radius: 8px;
+    box-shadow: 0 24px 60px rgba(18, 46, 68, 0.24);
+    backdrop-filter: blur(18px);
+    opacity: 0.8;
+}
+
+.news-vertical__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 18px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid rgba(18, 46, 68, 0.16);
+}
+
+.news-vertical__label {
+    display: inline-flex;
+    align-items: center;
+    min-height: 32px;
+    padding: 6px 15px;
+    background: var(--green-700);
+    color: var(--white);
+    border-radius: 2px;
+    font-size: 0.84rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+}
+
+.news-vertical__sub {
+    color: rgba(18, 46, 68, 0.58);
+    font-size: 0.76rem;
+    font-weight: 900;
+    letter-spacing: 0.18em;
+}
+
+.news-vertical__viewport {
+    position: relative;
+    height: 145px;
+    overflow: hidden;
+}
+
+.news-vertical__list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    animation: news-vertical-scroll var(--news-duration, 18s) linear infinite;
+}
+
+.news-vertical__list li {
+    display: flex;
+    align-items: flex-start;
+    min-height: 54px;
+    padding: 0 4px 0 18px;
+    color: var(--green-950);
+    font-size: 0.96rem;
+    font-weight: 700;
+    line-height: 1.55;
+    position: relative;
+}
+
+.news-vertical__list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.72em;
+    width: 7px;
+    height: 7px;
+    border-radius: 999px;
+    background: var(--green-600);
+}
+
+.news-vertical:hover .news-vertical__list {
+    animation-play-state: paused;
+}
+
+@keyframes news-vertical-scroll {
+    0% {
+        transform: translateY(150px);
+    }
+
+    100% {
+        transform: translateY(calc(-54px * var(--news-count, 4)));
+    }
+}
+
+@media (max-width: 1120px) {
+    .hero-copy {
+        max-width: min(660px, calc(100% - 390px));
+    }
+
+    .hero-copy h1 {
+        font-size: 32px;
+    }
+
+    .news-vertical--canvas {
+        right: 32px;
+        top: 108px;
+        width: min(360px, calc(100% - 64px));
+        height: 145px;
+    }
+}
+
+@media (max-width: 760px) {
+    .hero-copy {
+        max-width: 100%;
+    }
+
+    .hero-slide {
+        min-height: 0;
+    }
+
+    .news-vertical--canvas {
+        position: relative;
+        right: auto;
+        top: auto;
+        width: calc(100% - 40px);
+        height: 145px;
+        margin: 22px auto 0;
+        padding: 17px 18px;
+    }
+
+    .news-vertical__head {
+        margin-bottom: 13px;
+        padding-bottom: 10px;
+    }
+
+    .news-vertical__label {
+        min-height: 29px;
+        padding: 5px 11px;
+        font-size: 0.75rem;
+    }
+
+    .news-vertical__sub {
+        font-size: 0.68rem;
+    }
+
+    .news-vertical__viewport {
+        height: 116px;
+    }
+
+    .news-vertical__list li {
+        min-height: 44px;
+        font-size: 0.84rem;
+        line-height: 1.5;
+    }
+
+    @keyframes news-vertical-scroll {
+        0% {
+            transform: translateY(116px);
+        }
+
+        100% {
+            transform: translateY(calc(-44px * var(--news-count, 4)));
+        }
+    }
+}
+

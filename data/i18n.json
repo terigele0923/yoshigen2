@@ -7,7 +7,7 @@
         "home": "トップ",
         "company": "企業情報",
         "products": "取扱商品",
-        "facilities": "設備・実例",
+        "facilities": "設備・ギャラリー",
         "gallery": "ギャラリー",
         "contact": "お問い合わせ"
       },
@@ -19,7 +19,16 @@
       "relatedTitle": "関連ページ",
       "ctaTitle": "事業内容・取扱品目について",
       "ctaText": "掲載情報をご確認のうえ、必要に応じて公開連絡先よりお問い合わせください。",
-      "ctaButton": "お問い合わせ情報へ"
+      "ctaButton": "お問い合わせ情報へ",
+      "newsTicker": {
+        "label": "お知らせ",
+        "items": [
+          "新規取引先との金属スクラップ回収を開始しました。",
+          "工業機械・モーター類の回収実績を更新しました。",
+          "法人様からの定期回収・スポット回収のご相談を受け付けています。",
+          "解体・選別・輸出まで一貫対応できる体制を整えています。"
+        ]
+      }
     },
     "home": {
       "metaTitle": "株式会社 吉源商事｜金属リサイクル・資源循環",
@@ -171,7 +180,11 @@
           "text": "品目ごとの整理や管理に関する情報を掲載します。",
           "stat": "SORT",
           "detailLead": "選別・管理に関する仮の詳細説明です。正式公開時には、品目ごとの整理方法や管理体制の写真を掲載します。",
-          "detailItems": ["品目別の整理", "保管状態の確認", "管理体制の紹介"],
+          "detailItems": [
+            "品目別の整理",
+            "保管状態の確認",
+            "管理体制の紹介"
+          ],
           "id": "sorting"
         },
         {
@@ -278,7 +291,7 @@
         "home": "首页",
         "company": "企业信息",
         "products": "经营品类",
-        "facilities": "设备与案例",
+        "facilities": "设备・图库",
         "gallery": "图片展示",
         "contact": "联系方式"
       },
@@ -290,7 +303,16 @@
       "relatedTitle": "相关页面",
       "ctaTitle": "关于业务内容与经营品类",
       "ctaText": "请确认网站公开信息，并根据需要通过公开联系方式咨询。",
-      "ctaButton": "查看联系方式"
+      "ctaButton": "查看联系方式",
+      "newsTicker": {
+        "label": "通知",
+        "items": [
+          "本公司已开始与新的合作客户开展金属废料回收业务。",
+          "工业机械、马达类回收业绩已更新。",
+          "受理法人客户的定期回收及临时回收咨询。",
+          "本公司具备从拆解、分选到出口的一体化对应能力。"
+        ]
+      }
     },
     "home": {
       "metaTitle": "株式会社 吉源商事｜金属回收与资源循环",
@@ -430,7 +452,11 @@
           "text": "结合照片介绍保管场地和作业环境概要。",
           "stat": "YARD",
           "detailLead": "这是设备与场地的临时详细说明。正式公开时将刊登场地、保管区域、作业动线和设备照片。",
-          "detailItems": ["保管区域概要", "作业环境介绍", "安全管理说明"],
+          "detailItems": [
+            "保管区域概要",
+            "作业环境介绍",
+            "安全管理说明"
+          ],
           "id": "yard"
         },
         {
@@ -438,7 +464,11 @@
           "text": "刊登按品类整理和管理相关的信息。",
           "stat": "SORT",
           "detailLead": "这是分选与管理的临时详细说明。正式公开时将刊登按品类整理的方法和管理体制照片。",
-          "detailItems": ["按品类整理", "保管状态确认", "管理体制介绍"],
+          "detailItems": [
+            "按品类整理",
+            "保管状态确认",
+            "管理体制介绍"
+          ],
           "id": "sorting"
         },
         {
@@ -446,7 +476,11 @@
           "text": "以清晰方式介绍出货和相关作业流程。",
           "stat": "SHIP",
           "detailLead": "这是出货与联动的临时详细说明。正式公开时将刊登出货准备、运输和相关合作内容。",
-          "detailItems": ["出货准备流程", "运输概要", "相关方联动"],
+          "detailItems": [
+            "出货准备流程",
+            "运输概要",
+            "相关方联动"
+          ],
           "id": "shipment"
         }
       ],
@@ -541,7 +575,7 @@
         "home": "Home",
         "company": "Company",
         "products": "Products",
-        "facilities": "Facilities",
+        "facilities": "Facilities & Gallery",
         "gallery": "Gallery",
         "contact": "Contact"
       },
@@ -553,7 +587,16 @@
       "relatedTitle": "Related Pages",
       "ctaTitle": "Business and Product Information",
       "ctaText": "Please review the public information and use the listed contact details when needed.",
-      "ctaButton": "View Contact Information"
+      "ctaButton": "View Contact Information",
+      "newsTicker": {
+        "label": "News",
+        "items": [
+          "We have started metal scrap collection with a new business partner.",
+          "Our collection records for industrial machinery and motors have been updated.",
+          "We accept inquiries for regular and spot collection from corporate clients.",
+          "We provide integrated support from dismantling and sorting to export."
+        ]
+      }
     },
     "home": {
       "metaTitle": "Yoshigen Shoji Co., Ltd. | Metal Recycling and Resource Circulation",

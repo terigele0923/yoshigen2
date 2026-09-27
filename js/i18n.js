@@ -81,6 +81,25 @@
       .join("");
   }
 
+  // JSONから読み込んだニュースを、縦型テロップとして表示する。
+  function renderNewsTicker(target, news) {
+    const section = target && target.closest(".news-vertical");
+    const items = news && Array.isArray(news.items) ? news.items : [];
+    if (!target || !section) return;
+    if (!items.length) {
+      section.hidden = true;
+      target.innerHTML = "";
+      return;
+    }
+    section.hidden = false;
+    const repeatedItems = [...items, ...items];
+    target.innerHTML = repeatedItems
+      .map((item) => `<li>${escapeHTML(item)}</li>`)
+      .join("");
+    target.style.setProperty("--news-duration", `${Math.max(items.length * 4, 12)}s`);
+    target.style.setProperty("--news-count", items.length);
+  }
+
   // 商品写真・分類・説明・取扱例・問い合わせリンクを商品カードにまとめる。
   function renderProducts(target, items, copy) {
     if (!target || !Array.isArray(items)) return;
@@ -177,6 +196,10 @@
     renderFlow(
       document.querySelector('[data-render="homeFlow"]'),
       data.home && data.home.flow,
+    );
+    renderNewsTicker(
+      document.querySelector('[data-render="newsTicker"]'),
+      data.common && data.common.newsTicker,
     );
     renderRows(
       document.querySelector('[data-render="companyOutline"]'),
