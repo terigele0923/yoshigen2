@@ -58,14 +58,14 @@
       .join("");
   }
 
-  // トップのメインビジュアル内に、先頭3件の事業紹介リンクを表示する。
-  function renderHeroServices(target, items) {
+  // トップのメインビジュアル内に、主な3商品の写真と説明を表示する。
+  function renderHeroProducts(target, items) {
     if (!target || !Array.isArray(items)) return;
     target.innerHTML = items
       .slice(0, 3)
       .map(
         (item) =>
-          `<a class="hero-quick-card" href="${escapeHTML(item.link || "products.html")}"><strong>${escapeHTML(item.title)}</strong><span>${escapeHTML(item.text)}</span></a>`,
+          `<a class="hero-quick-card" href="products.html#product-${escapeHTML(item.id)}"><img src="${escapeHTML(item.image || "")}" alt="" width="420" height="320"><span class="hero-quick-card__body"><strong>${escapeHTML(item.title)}</strong><span>${escapeHTML(item.text)}</span></span></a>`,
       )
       .join("");
   }
@@ -96,7 +96,7 @@
     target.innerHTML = repeatedItems
       .map((item) => `<li>${escapeHTML(item)}</li>`)
       .join("");
-    target.style.setProperty("--news-duration", `${Math.max(items.length * 4, 12)}s`);
+    target.style.setProperty("--news-duration", `${Math.max(items.length * 4.5, 14)}s`);
     target.style.setProperty("--news-count", items.length);
   }
 
@@ -106,7 +106,7 @@
     target.innerHTML = items
       .map(
         (item, index) =>
-          `<article class="product-card" data-group="${escapeHTML(item.group)}"><div class="product-visual"><img src="${escapeHTML(item.image || "")}" alt="${escapeHTML(item.title)} — ${escapeHTML(copy.illustrationLabel)}" width="420" height="320" loading="lazy"><span class="product-number">${String(index + 1).padStart(2, "0")}</span></div><div class="product-card-content"><span class="category-pill">${escapeHTML(item.category)}</span><h3>${escapeHTML(item.title)}</h3><p>${escapeHTML(item.text)}</p><div class="product-examples"><small>${escapeHTML(copy.examplesLabel)}</small><p>${escapeHTML(item.examples)}</p></div><a class="product-enquiry" href="contact.html">${escapeHTML(copy.enquiryLabel)} <span aria-hidden="true">↗</span></a></div></article>`,
+          `<article class="product-card" id="product-${escapeHTML(item.id)}" data-group="${escapeHTML(item.group)}"><div class="product-visual"><img src="${escapeHTML(item.image || "")}" alt="${escapeHTML(item.title)} — ${escapeHTML(copy.illustrationLabel)}" width="420" height="320" loading="lazy"><span class="product-number">${String(index + 1).padStart(2, "0")}</span></div><div class="product-card-content"><span class="category-pill">${escapeHTML(item.category)}</span><h3>${escapeHTML(item.title)}</h3><p>${escapeHTML(item.text)}</p><div class="product-examples"><small>${escapeHTML(copy.examplesLabel)}</small><p>${escapeHTML(item.examples)}</p></div><a class="product-enquiry" href="contact.html">${escapeHTML(copy.enquiryLabel)} <span aria-hidden="true">↗</span></a></div></article>`,
       )
       .join("");
   }
@@ -186,7 +186,7 @@
     document
       .querySelectorAll('[data-render="heroServices"]')
       .forEach((target) =>
-        renderHeroServices(target, data.home && data.home.services),
+        renderHeroProducts(target, products),
       );
     renderFeatureCards(
       document.querySelector('[data-render="homeServices"]'),
@@ -210,11 +210,16 @@
       data.company && data.company.philosophy,
       data.common && data.common.viewMore,
     );
-    renderProducts(
-      document.querySelector('[data-render="products"]'),
-      products,
-      data.products,
-    );
+    const productGrid = document.querySelector('[data-render="products"]');
+    renderProducts(productGrid, products, data.products);
+    if (productGrid && window.location.hash.startsWith("#product-")) {
+      const targetProduct = document.getElementById(
+        decodeURIComponent(window.location.hash.slice(1)),
+      );
+      if (targetProduct) {
+        requestAnimationFrame(() => targetProduct.scrollIntoView());
+      }
+    }
     renderProducts(
       document.querySelector('[data-render="homeProducts"]'),
       products,
